@@ -1,0 +1,136 @@
+@font-face {
+  font-family: Byekan;
+
+  src: url("../fonts/textfonts/Byekan.woff") format("woff");
+}
+@font-face {
+  font-family: lalezar;
+  src: url("../fonts/textfonts/lalezar.woff") format("woff");
+}
+
+body {
+  font-family: byekan;
+}
+* {
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 550px;
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+.nav-list {
+  list-style-type: none;
+}
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-item {
+  display: inline-block;
+  padding: 35px 20px;
+}
+.nav-item a:hover {
+  color: orange;
+}
+.title {
+  font-size: 60px;
+  font-family: lalezar;
+  margin-top: 90px;
+}
+.title span {
+  color: orange;
+}
+.desc {
+  margin: auto;
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 0;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  margin-top: 50px;
+}
+
+.members {
+  text-align: center;
+  margin: 50px;
+}
+.member-titr {
+  margin-bottom: 20px;
+}
+.member-item {
+  display: inline-block;
+  width: 350px;
+  margin: 0 5px;
+  box-shadow: 0 0 15px #bbb;
+  border-radius: 20px;
+}
+.member-pic {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.member-name {
+  margin-top: 5px;
+  font-size: 25px;
+}
+.member-bio {
+  text-align: justify;
+  padding: 10px 20px 20px;
+}
+
+.about {
+  height: 550px;
+  background-image: url(../images/bg.jpg);
+  background-color: #4e4e4e;
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-top: 55px;
+}
+.circle {
+  background-color: rgba(135, 135, 135, 0.4);
+  width: 450px;
+  height: 450px;
+  margin: auto;
+  border-radius: 50%;
+  text-align: center;
+  padding: 45px 70px;
+  color: #fff;
+}
+.circle h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.circle p {
+  text-align: justify;
+}
+
+footer {
+  background-color: #bbb;
+  height: 200px;
+  text-align: center;
+  padding-top: 60px;
+}
+.social-icon {
+  height: 70px;
+  background-color: gray;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer i {
+  padding: 0 10px;
+}
+
+.copy-right {
+  padding-top: 40px;
+}
