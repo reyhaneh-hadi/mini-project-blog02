@@ -22,7 +22,7 @@ The project includes a landing section, navigation menu, company members, about 
 
 Clone the repository:
 
-     git clone https://github.com/yourusername/repository-name.git
+     git clone https://github.com/reyhaneh-hadi/mini-project-blog02
 
 then open index.html in a browser.
 
@@ -38,4 +38,5 @@ CSS3
 This project is not responsive and optimized only for desktop layout.
 
 Make sure font files and image paths remain in their correct folders.
+
 
